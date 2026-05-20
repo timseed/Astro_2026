@@ -1,0 +1,13 @@
+Primary author: Hari Nair <hari@alumni.caltech.edu>
+
+With contributions from:
+Richard Rognlie <rrognlie@gamerz.net> (Ancient and Hemisphere
+projections)
+Ian Turner <vectro@vectro.org> (Icosagnomonic projection)
+Martin Pool <mbp@linuxcare.com> (Peters Projection)
+
+The SGP4/SDP4 library is based on code written by Neoklis Kyriazis
+(http://leonardo.spidernet.net/Copernicus/22420). 
+
+The code to read JPL Digital Ephemeris files uses routines from Bill
+Gray (http://www.projectpluto.com/jpl_eph.htm).

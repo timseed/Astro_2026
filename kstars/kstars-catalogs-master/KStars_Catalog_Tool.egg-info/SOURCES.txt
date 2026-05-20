@@ -1,0 +1,9 @@
+LICENSE
+main.py
+setup.py
+KStars_Catalog_Tool.egg-info/PKG-INFO
+KStars_Catalog_Tool.egg-info/SOURCES.txt
+KStars_Catalog_Tool.egg-info/dependency_links.txt
+KStars_Catalog_Tool.egg-info/entry_points.txt
+KStars_Catalog_Tool.egg-info/requires.txt
+KStars_Catalog_Tool.egg-info/top_level.txt

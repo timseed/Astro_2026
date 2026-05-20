@@ -1,0 +1,6 @@
+[earth]
+"Earth"
+cloud_map=clouds.jpg
+cloud_threshold=0
+map=earth.jpg               # This image needs to be cloud-free
+night_map=night.jpg         # This image needs to be cloud-free

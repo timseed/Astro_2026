@@ -1,0 +1,101 @@
+Original version written by Frank Solensky <solenskyf@acm.org>,
+updates by Hari Nair <hari@alumni.caltech.edu>
+
+This file is aimed at those who are upgrading from versions of Xplanet
+earlier than 1.0.
+
+Xplanet 1.0 is a completely rewritten program from the older (0.95)
+version.  I should have called it Xplanet2 to avoid confusion, but I
+didn't think of it, and I apologize for any trouble.  
+
+The default behaviour of Xplanet is run continuously instead of just
+once. As a result, the "xplanetbg" program is no longer needed.
+
+Xplanet in its default mode will now draw multiple bodies.  For
+example, when drawing Jupiter, any of the Galilean satellites in the
+field of view will also be drawn.  For this reason, options that are
+specific to a body, such as the image map or marker files, are now
+specified in a configuration file.  Options that affect the way the
+image is drawn, such as geometry or label, are still specified on the
+command line.
+
+There is a [default] section at the top of the configuration file.  Be
+careful to specify options that apply to only one planet under that
+planet's section, and not under [default].  For example, a common
+mistake is to put cloud_map=clouds.jpg under [default] and not under
+[earth].  This will overlay clouds on every planet which is probably
+not what you want, and is a huge waste of time!
+
+Input image dimensions should be powers of 2, where the height is half
+the width (e.g. 2048x1024).  Other image dimensions will work, but
+performance will be slower.  Input images are specified in the
+configuration file.
+
+Marker files must now be in UTF-8 encoding.  Font files must now be
+TrueType fonts.
+
+The subdirectories under share/xplanet (e.g. arcs, markers,
+satellites) each contain README and example files for more
+information.
+
+Command line argument changes:
+
+Version 0.95			                    Version 1.0
+------------					    -----------
+-center <x>,<y>					    -center +x+y
+-date "%d %b %Y %H:%M:%S" [specifying local time]   -date YYYYMMDD.HHMMSS [specifying GMT]
+-dayside					    -origin sun
+-earthside					    -origin earth
+-labelformat <string>				    -date_format <string>
+-moonside					    -origin moon
+-nightside					    -origin -sun
+
+
+The following command line options should instead be set as parameters in
+the file specified with the '-config' option or the file "config/default"
+in the '-searchdir' directory.
+
+greatarcfile <file>             arc_file=<file>
+cloud_gamma <number>            cloud_gamma=<number>
+cloud_image <cloud_file>        cloud_map=<file>
+cloud_ssec <cloud_file>		cloud_ssec=true  (Use in conjunction with cloud_map)
+cloud_threshold <number>        cloud_threshold=<number>
+fuzz				twilight=<number>
+grid                            grid=true
+grid1 <number>                  grid1=<number>
+grid2 <number>                  grid2=<number>
+mapbounds <lat1,lon1,lat2,lon2> mapbounds=<lat1,lon1,lat2,lon2>
+markers                         marker_file=<file>
+markerfile                      marker_file=<file>
+night_image <file>              night_map=<file>
+satfile <file>                  satellite_file=<file>
+shade <number>                  shade=<number>
+specular_file <file>            specular_map=<file>
+
+
+Finally, these options are not currently supported:
+
+-animate
+-blend
+-cloud_shade <number>
+-demfile <file>
+-demscale <demscale>
+-fontdir <dir>
+-fullscreen
+-labelname
+-labelrot
+-mapdir <dir>
+-nice <number>
+-notransparency
+-orbit <spec>
+-print_coords
+-root
+-sattrackid <id>
+-spacing <number>
+-start_cloud <file>
+-start_index <number>
+-stop_cloud <file>
+-sunrel <number,number>
+-swap
+-terminator <termtype>
+-truetype

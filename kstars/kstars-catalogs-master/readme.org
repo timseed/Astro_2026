@@ -1,0 +1,10 @@
+#+TITLE: KStars Catalog Repository
+
+This repository contains a framework for generating new /Deep Sky
+Object/ catalogs for ~KStars~. The basic idea is that the individual
+catalogs are implemented as python modules which perform data
+acquisition, parsing and dedublication in stages. Thus this tooling is
+meant to be run in CI and regenerate all catalogs each time, although
+stages may be skipped and/or cached.
+
+Please have a look at the [[https://protagon.space/catalogs/][documentation]] for more details.

@@ -1,0 +1,8 @@
+Click>=8.0.1
+pandas>=2.0.0
+astropy>=4.2
+astroquery>=0.4.2
+wget>=3.2
+lxml>=4.6.3
+xlrd>=2.0.1
+pykstars

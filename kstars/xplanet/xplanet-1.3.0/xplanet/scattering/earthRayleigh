@@ -1,0 +1,101 @@
+# This file describes the Rayleigh scattering lookup tables.  You will
+# need to create them and place them in the xplanet/scattering
+# directory.  To create them: 
+
+#  xplanet -create_scattering_tables earthRayleigh -verbosity 1
+
+# Tables will be created at each degree between 0 and 180 degrees for
+# the limb and between 0 and 90 degrees for the disk using the
+# incidence, emission, and tangent height values specified in the
+# blocks below.
+
+# The first block is the incidence angles, in degrees.  The first line
+# must be INCIDENCE followed by the number of incidence angles.  The
+# shadow height for incidence angle i is found using
+#
+# h = R * (1/sin(sza) - 1)
+#
+# The shadow height for an incidence angle of 120 degrees is about 1000
+# km (for the Earth).
+#
+INCIDENCE 121
+   0.000   1.000   2.000   3.000   4.000   5.000   6.000   7.000   8.000   9.000
+  10.000  11.000  12.000  13.000  14.000  15.000  16.000  17.000  18.000  19.000
+  20.000  21.000  22.000  23.000  24.000  25.000  26.000  27.000  28.000  29.000
+  30.000  31.000  32.000  33.000  34.000  35.000  36.000  37.000  38.000  39.000
+  40.000  41.000  42.000  43.000  44.000  45.000  46.000  47.000  48.000  49.000
+  50.000  51.000  52.000  53.000  54.000  55.000  56.000  57.000  58.000  59.000
+  60.000  61.000  62.000  63.000  64.000  65.000  66.000  67.000  68.000  69.000
+  70.000  71.000  72.000  73.000  74.000  75.000  76.000  77.000  78.000  79.000
+  80.000  81.000  82.000  83.000  84.000  85.000  86.000  87.000  88.000  89.000
+  90.000  91.000  92.000  93.000  94.000  95.000  96.000  97.000  98.000  99.000
+ 100.000 101.000 102.000 103.000 104.000 105.000 106.000 107.000 108.000 109.000
+ 110.000 111.000 112.000 113.000 114.000 115.000 116.000 117.000 118.000 119.000
+ 120.000
+#
+# The next block is the emission angles.  The first line must be
+# EMISSION followed by the number of emission angles. There's no
+# reason to go higher than 90 degrees, since those cases don't
+# intersect the disk and are considered limb rays.
+#
+EMISSION 91
+   0.000   1.000   2.000   3.000   4.000   5.000   6.000   7.000   8.000   9.000
+  10.000  11.000  12.000  13.000  14.000  15.000  16.000  17.000  18.000  19.000
+  20.000  21.000  22.000  23.000  24.000  25.000  26.000  27.000  28.000  29.000
+  30.000  31.000  32.000  33.000  34.000  35.000  36.000  37.000  38.000  39.000
+  40.000  41.000  42.000  43.000  44.000  45.000  46.000  47.000  48.000  49.000
+  50.000  51.000  52.000  53.000  54.000  55.000  56.000  57.000  58.000  59.000
+  60.000  61.000  62.000  63.000  64.000  65.000  66.000  67.000  68.000  69.000
+  70.000  71.000  72.000  73.000  74.000  75.000  76.000  77.000  78.000  79.000
+  80.000  81.000  82.000  83.000  84.000  85.000  86.000  87.000  88.000  89.000
+  90.000
+#
+# This block contains tangent heights, in kilometers.  The first line
+# must be TANGENT_HEIGHT followed by the number of tangent heights.
+# These values are only used in calculating the limb tables.
+#
+TANGENT_HEIGHT 101
+   0.000   1.000   2.000   3.000   4.000   5.000   6.000   7.000   8.000   9.000
+  10.000  11.000  12.000  13.000  14.000  15.000  16.000  17.000  18.000  19.000
+  20.000  21.000  22.000  23.000  24.000  25.000  26.000  27.000  28.000  29.000
+  30.000  31.000  32.000  33.000  34.000  35.000  36.000  37.000  38.000  39.000
+  40.000  41.000  42.000  43.000  44.000  45.000  46.000  47.000  48.000  49.000
+  50.000  51.000  52.000  53.000  54.000  55.000  56.000  57.000  58.000  59.000
+  60.000  61.000  62.000  63.000  64.000  65.000  66.000  67.000  68.000  69.000
+  70.000  71.000  72.000  73.000  74.000  75.000  76.000  77.000  78.000  79.000
+  80.000  81.000  82.000  83.000  84.000  85.000  86.000  87.000  88.000  89.000
+  90.000  91.000  92.000  93.000  94.000  95.000  96.000  97.000  98.000  99.000
+ 100.000
+
+# The name of each lookup table is constructed from the templates
+# below, using sprintf() and a phase angle (integer, in degrees).
+#
+# Lookup tables are stored as simple binary files or as PNG files. The
+# binary files are faster but take up more disk space.
+
+#TEMPLATES earthDisk%03d.png earthLimb%03d.png
+TEMPLATES earthDisk%03d.bin earthLimb%03d.bin
+
+# The following entries are only used when creating tables, not for
+# reading them.
+
+# You can use Disk and Limb tables calculated using different
+# parameters (such as scale height or atmospheric density), but they
+# must have the same emission and incidence angle values.
+
+# Red, green, and blue wavelengths, in nanometers
+WAVELENGTHS 3
+700 510 440
+
+# Planet radius, in kilometers
+RADIUS 6378.140
+
+# Atmospheric scale height, in meters.
+SCALE_HEIGHT 8000
+
+# Index of refraction of air
+INDEX_OF_REFRACTION 1.000293
+
+# Density of air at the reference level (the lowest tangent height),
+# in molecules/cubic meter
+DENSITY 2.6867774e25

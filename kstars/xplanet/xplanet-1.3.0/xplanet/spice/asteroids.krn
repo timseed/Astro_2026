@@ -1,0 +1,5 @@
+# These kernel files are from
+# ftp://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/
+
+ceres-2003-2016.bsp # 2003 JAN 01 to 2016 JAN 01
+vesta-2003-2013.bsp # 2003 JAN 01 to 2013 JAN 01

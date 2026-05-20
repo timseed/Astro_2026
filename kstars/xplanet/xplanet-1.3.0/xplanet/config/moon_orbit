@@ -1,0 +1,14 @@
+[default]
+magnify=20
+
+[earth]
+"Earth"
+color={28, 82, 110}
+
+[moon]
+"Moon"
+color={100, 100, 100}
+
+draw_orbit=true
+
+orbit={-.51,.5,2}

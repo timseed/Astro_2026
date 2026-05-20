@@ -1,0 +1,48 @@
+build-catlogs:
+  stage: build
+  image:
+    name: hiro98/pykstars:latest
+    entrypoint: [ '/bin/bash', '-c', 'ln -snf /bin/bash /bin/sh && /bin/bash -c $0' ]
+  script:
+    - pip install --break-system-packages -e .
+    - python3 -u main.py build --knewstuff "https://indilib.org/jdownloads/knewstuff/"
+
+  artifacts:
+    paths:
+      - out/*
+
+.docs-common:
+  image:
+    name: hiro98/pykstars:latest
+    entrypoint: [ '/bin/bash', '-c', 'ln -snf /bin/bash /bin/sh && /bin/bash -c $0' ]
+
+test-docs:
+  extends: .docs-common
+  stage: build
+  script:
+    - pip install --break-system-packages -e .
+    - cd docs
+    - pip install --break-system-packages -r requirements.txt
+    - make html
+
+deploy-docs:
+  stage: deploy
+  image:
+    name: hiro98/pykstars:latest
+    entrypoint: [ '/bin/bash', '-c', 'ln -snf /bin/bash /bin/sh && /bin/bash -c $0' ]
+
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - ssh-add <(echo "$DEPLOY_KEY")
+    - pip install --break-system-packages -e .
+    - cd docs
+    - pip install --break-system-packages -r requirements.txt 
+    - make html
+    - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r build/html/* hiro@protagon.space:/var/www/protagon.space/catalogs
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+    - when: never

@@ -1,0 +1,4 @@
+FWHM_IMAGE              # Using Pixels
+FLUX_RADIUS             # radius containing 50% of the light
+X_IMAGE                 # Object position along x                                   [pixel]
+Y_IMAGE                 # Object position in y

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: KStars-Catalog-Tool
+Version: 0.0.2
+License-File: LICENSE
+Requires-Dist: Click>=8.0.1
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: astropy>=4.2
+Requires-Dist: astroquery>=0.4.2
+Requires-Dist: wget>=3.2
+Requires-Dist: lxml>=4.6.3
+Requires-Dist: xlrd>=2.0.1
+Requires-Dist: pykstars
+Dynamic: license-file
+Dynamic: requires-dist

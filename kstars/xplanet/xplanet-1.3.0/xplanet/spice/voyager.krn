@@ -1,0 +1,5 @@
+# These kernel files are from
+# ftp://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/
+
+vgr1_st.bsp # 1977 SEP 05 to 2049 DEC 31
+vgr2_st.bsp # 1977 AUG 20 to 2049 DEC 31

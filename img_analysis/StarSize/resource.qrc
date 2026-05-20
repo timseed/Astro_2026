@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/default.sex</file>
+        <file>resource/default.param</file>
+        <file>resource/default.conv</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,13 @@
+use -random to set rotation, then set lat/lon other ways
+
+use arbitrary "lookAt" position
+
+add spice objects to planet list, not annotation map
+
+multiple line markers
+
+Uranus rings
+
+constant latitude arcs
+
+-separation option, to place the observer where two bodies are x degrees apart

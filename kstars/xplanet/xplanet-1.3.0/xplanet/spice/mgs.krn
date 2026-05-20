@@ -1,0 +1,12 @@
+# These kernel files are from
+# ftp://naif.jpl.nasa.gov/pub/naif/MGS/kernels/spk/
+#
+# Add more recent kernel files at the bottom.
+#
+
+# Phobos and Deimos
+mar033_2000-2025.bsp                  # 2000 JAN 01 to 2025 JAN 01
+
+# Mars Global Surveyor
+spk_m_040212-040512_040213.bsp        # 2004 FEB 12 to 2004 MAY 12
+spk_m_040512-040812_040213.bsp        # 2004 MAY 12 to 2004 AUG 12

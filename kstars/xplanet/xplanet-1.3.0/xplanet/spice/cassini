@@ -1,0 +1,3 @@
+# show the Cassini orbiter with a trail covering the last 10 days,
+# relative to Saturn 
+-82 relative_to=699 trail={-10,.01,.1} color={128,128,128}

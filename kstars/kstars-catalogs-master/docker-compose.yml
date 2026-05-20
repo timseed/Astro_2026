@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  pykstars:
+    image: hiro98/pykstars:latest
+    container_name: kstars_cat_dev
+    volumes:
+      - /home/tim/Dev/Python/Astro/kstars-catalogs-master:/stuff:rw
+    working_dir: /stuff
+    command: >
+      sh -c "
+      pip3 install -r ./.pe/lib/python3.12/site-packages/KStars_Catalog_Tool-0.0.2-py3.12.egg-info/requires.txt --break-system-packages
+      tail -f /dev/null
+      "
+
+

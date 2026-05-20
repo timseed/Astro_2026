@@ -1,0 +1,26 @@
+# These kernel files are from
+# ftp://naif.jpl.nasa.gov/pub/naif/CASSINI/kernels/spk/
+#
+# Add more recent kernel files at the bottom.
+#
+
+# Saturn and its minor satellites, relative to Saturn barycenter
+sat128.bsp	               # 2001 DEC 25 to 2009 DEC 19
+
+# Saturn and its major satellites, relative to Saturn barycenter
+020514_SE_SAT105.bsp           # 2002 JAN 12 to 2013 JAN 08
+
+# Cassini orbiter, relative to the Sun
+971103_SCEPH_LP0_SP0.bsp       # 1997 OCT 15 to 2004 AUG 01
+030201AP_SK_SM546_T45.bsp      # 2003 JAN 01 to 2008 AUG 09
+
+# Major planet barycenters and Sun, relative to Solar system
+# barycenter 
+981005_PLTEPH-DE405S.bsp       # 1959 DEC 10 to 2020 JAN 16 
+
+# Cassini orbiter and probe, relative to the Sun
+040622AP_OPK_04122_08222.bsp   # 2004 MAY 01 to 2008 AUG 09
+
+# Cassini orbiter, major planet barycenters and Sun, major satellites
+040622AP_SCPSE_04122_08222.bsp # 2004 MAY 01 to 2008 AUG 09
+

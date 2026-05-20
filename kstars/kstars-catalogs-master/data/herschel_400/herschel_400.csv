@@ -1,0 +1,401 @@
+Id,CAT,CAT_ID,H_id,Name_type
+1,NGC,40,H1,Bow-Tie Nebula
+2,NGC,129,H2,open cluster
+3,NGC,136,H3,open cluster
+4,NGC,157,H4,galaxy
+5,NGC,185,H5,galaxy
+6,NGC,205,H6,galaxy
+7,NGC,225,H7,open cluster
+8,NGC,246,H8,nebula
+9,NGC,247,H9,galaxy
+10,NGC,253,H10,Sculptor Galaxy
+11,NGC,278,H11,galaxy
+12,NGC,288,H12,globular cluster
+13,NGC,381,H13,open cluster
+14,NGC,404,H14,galaxy
+15,NGC,436,H15,open cluster
+16,NGC,457,H16,Owl Cluster
+17,NGC,488,H17,galaxy
+18,NGC,524,H18,galaxy
+19,NGC,559,H19,open cluster
+20,NGC,584,H20,galaxy
+21,NGC,596,H21,galaxy
+22,NGC,598,H22,Triangulum Galaxy
+23,NGC,613,H23,galaxy
+24,NGC,615,H24,galaxy
+25,NGC,637,H25,open cluster
+26,NGC,651,H26,Little Dumbbell Nebula
+27,NGC,654,H27,open cluster
+28,NGC,659,H28,open cluster
+29,NGC,663,H29,open cluster
+30,NGC,137,H30,galaxy
+31,NGC,752,H31,open cluster
+32,NGC,772,H32,galaxy
+33,NGC,779,H33,galaxy
+34,NGC,869,H34,Double Cluster
+35,NGC,884,H35,Double Cluster
+36,NGC,891,H36,galaxy
+37,NGC,908,H37,galaxy
+38,NGC,936,H38,galaxy
+39,NGC,1022,H39,galaxy
+40,NGC,1023,H40,galaxy
+41,NGC,1027,H41,open cluster
+42,NGC,1052,H42,galaxy
+43,NGC,1055,H43,galaxy
+44,NGC,1084,H44,galaxy
+45,NGC,1245,H45,open cluster
+46,NGC,1342,H46,open cluster
+47,NGC,1407,H47,galaxy
+48,NGC,1444,H48,open cluster
+49,NGC,1501,H49,nebula
+50,NGC,1502,H50,open cluster
+51,NGC,1513,H51,open cluster
+52,NGC,1528,H52,open cluster
+53,NGC,1535,H53,nebula
+54,NGC,1545,H54,open cluster
+55,NGC,1647,H55,open cluster
+56,NGC,1664,H56,open cluster
+57,NGC,1788,H57,nebula
+58,NGC,1817,H58,open cluster
+59,NGC,1857,H59,open cluster
+60,NGC,1907,H60,open cluster
+61,NGC,1931,H61,cluster
+62,NGC,1961,H62,galaxy
+63,NGC,1964,H63,galaxy
+64,NGC,1980,H64,Lost Jewel of Orion
+65,NGC,1999,H65,nebula
+66,NGC,2022,H66,nebula
+67,NGC,2024,H67,Flame Nebula
+68,NGC,2126,H68,open cluster
+69,NGC,2129,H69,open cluster
+70,NGC,2158,H70,open cluster
+71,NGC,2169,H71,open cluster
+72,NGC,2185,H72,nebula
+73,NGC,2186,H73,open cluster
+74,NGC,2194,H74,open cluster
+75,NGC,2204,H75,open cluster
+76,NGC,2215,H76,open cluster
+77,NGC,2232,H77,open cluster
+78,NGC,2244,H78,open cluster
+79,NGC,2251,H79,open cluster
+80,NGC,2264,H80,Cone Nebula
+81,NGC,2266,H81,open cluster
+82,NGC,2281,H82,open cluster
+83,NGC,2286,H83,open cluster
+84,NGC,2301,H84,open cluster
+85,NGC,2304,H85,open cluster
+86,NGC,2311,H86,open cluster
+87,NGC,2324,H87,open cluster
+88,NGC,2335,H88,open cluster
+89,NGC,2343,H89,Christmas Tree Cluster
+90,NGC,2353,H90,open cluster
+91,NGC,2354,H91,open cluster
+92,NGC,2355,H92,open cluster
+93,NGC,2360,H93,open cluster
+94,NGC,2362,H94,Tau Canis Majoris Cluster
+95,NGC,2371,H95,nebula
+96,NGC,2372,H96,nebula
+97,NGC,2392,H97,Eskimo Nebula
+98,NGC,2395,H98,open cluster
+99,NGC,2403,H99,galaxy
+100,NGC,2419,H100,globular cluster
+101,NGC,2420,H101,open cluster
+102,NGC,2421,H102,open cluster
+103,NGC,2422,H103,open cluster
+104,NGC,2423,H104,open cluster
+105,NGC,2438,H105,nebula
+106,NGC,2440,H106,nebula
+107,NGC,2479,H107,open cluster
+108,NGC,2482,H108,open cluster
+109,NGC,2489,H109,open cluster
+110,NGC,2506,H110,open cluster
+111,NGC,2509,H111,open cluster
+112,NGC,2527,H112,open cluster
+113,NGC,2539,H113,open cluster
+114,NGC,2548,H114,open cluster
+115,NGC,2567,H115,open cluster
+115,NGC,2571,H116,open cluster
+116,NGC,2613,H117,open cluster
+118,NGC,2627,H118,open cluster
+119,NGC,2655,H119,galaxy
+120,NGC,2681,H120,galaxy
+121,NGC,2683,H121,galaxy
+122,NGC,2742,H122,galaxy
+123,NGC,2768,H123,galaxy
+124,NGC,2775,H124,galaxy
+125,NGC,2782,H125,galaxy
+126,NGC,2787,H126,galaxy
+127,NGC,2811,H127,galaxy
+128,NGC,2841,H128,galaxy
+129,NGC,2859,H129,galaxy
+130,NGC,2903,H130,galaxy
+131,NGC,2950,H131,galaxy
+132,NGC,2964,H132,galaxy
+133,NGC,2974,H133,galaxy
+134,NGC,2976,H134,galaxy
+135,NGC,2985,H135,galaxy
+136,NGC,3034,H136,Cigar Galaxy
+137,NGC,3077,H137,galaxy
+138,NGC,3079,H138,galaxy
+139,NGC,3115,H139,Spindle Galaxy
+140,NGC,3147,H140,galaxy
+141,NGC,3166,H141,galaxy
+142,NGC,3169,H142,galaxy
+143,NGC,3184,H143,galaxy
+144,NGC,3190,H144,galaxy
+145,NGC,3193,H145,galaxy
+146,NGC,3198,H146,galaxy
+147,NGC,3226,H147,galaxy
+148,NGC,3227,H148,galaxy
+149,NGC,3242,H149,Ghost of Jupiter
+150,NGC,3245,H150,galaxy
+151,NGC,3277,H151,galaxy
+152,NGC,3294,H152,galaxy
+153,NGC,3310,H153,galaxy
+154,NGC,3344,H154,galaxy
+155,NGC,3377,H155,galaxy
+156,NGC,3379,H156,galaxy
+157,NGC,3384,H157,galaxy
+158,NGC,3395,H158,galaxy
+159,NGC,3412,H159,galaxy
+160,NGC,3414,H160,galaxy
+161,NGC,3432,H161,galaxy
+162,NGC,3486,H162,galaxy
+163,NGC,3489,H163,galaxy
+164,NGC,3504,H164,galaxy
+165,NGC,3521,H165,galaxy
+166,NGC,3556,H166,galaxy
+167,NGC,3593,H167,galaxy
+168,NGC,3607,H168,galaxy
+169,NGC,3608,H169,galaxy
+170,NGC,3610,H170,galaxy
+171,NGC,3613,H171,galaxy
+172,NGC,3619,H172,galaxy
+173,NGC,3621,H173,galaxy
+174,NGC,3626,H174,galaxy
+175,NGC,3628,H175,galaxy
+176,NGC,3631,H176,galaxy
+177,NGC,3640,H177,galaxy
+178,NGC,3655,H178,galaxy
+179,NGC,3665,H179,galaxy
+180,NGC,3675,H180,galaxy
+181,NGC,3686,H181,galaxy
+182,NGC,3726,H182,galaxy
+183,NGC,3729,H183,galaxy
+184,NGC,3810,H184,galaxy
+185,NGC,3813,H185,galaxy
+186,NGC,3877,H186,galaxy
+187,NGC,3893,H187,galaxy
+188,NGC,3898,H188,galaxy
+189,NGC,3900,H189,galaxy
+190,NGC,3912,H190,galaxy
+191,NGC,3912,H191,galaxy
+192,NGC,3941,H192,galaxy
+193,NGC,3945,H193,galaxy
+194,NGC,3949,H194,galaxy
+195,NGC,3953,H195,galaxy
+196,NGC,3962,H196,galaxy
+197,NGC,3982,H197,galaxy
+198,NGC,3992,H198,galaxy
+199,NGC,3998,H199,galaxy
+200,NGC,4026,H200,galaxy
+201,NGC,4027,H201,galaxy
+202,NGC,4030,H202,galaxy
+203,NGC,4036,H203,galaxy
+204,NGC,4038,H204,Antenna Galaxies I
+205,NGC,4041,H205,galaxy
+206,NGC,4051,H206,galaxy
+207,NGC,4085,H207,galaxy
+208,NGC,4088,H208,galaxy
+209,NGC,4102,H209,galaxy
+210,NGC,4111,H210,galaxy
+211,NGC,4143,H211,galaxy
+212,NGC,4147,H212,cluster
+213,NGC,4150,H213,galaxy
+214,NGC,4151,H214,galaxy
+215,NGC,4179,H215,galaxy
+216,NGC,4203,H216,galaxy
+216,NGC,4214,H217,galaxy
+218,NGC,4216,H218,galaxy
+219,NGC,4245,H219,galaxy
+220,NGC,4251,H220,galaxy
+221,NGC,4258,H221,galaxy
+222,NGC,4261,H222,galaxy
+223,NGC,4273,H223,galaxy
+224,NGC,4274,H224,galaxy
+225,NGC,4278,H225,galaxy
+226,NGC,4281,H226,galaxy
+227,NGC,4293,H227,galaxy
+228,NGC,4303,H228,galaxy
+229,NGC,4314,H229,galaxy
+230,NGC,4346,H230,galaxy
+231,NGC,4350,H231,galaxy
+232,NGC,4361,H232,nebula
+233,NGC,4365,H233,galaxy
+234,NGC,4371,H234,galaxy
+235,NGC,4394,H235,galaxy
+236,NGC,4414,H236,galaxy
+237,NGC,4419,H237,galaxy
+238,NGC,4429,H238,galaxy
+239,NGC,4435,H239,galaxy
+240,NGC,4438,H240,The Eyes
+241,NGC,4442,H241,galaxy
+242,NGC,4448,H242,galaxy
+243,NGC,4449,H243,galaxy
+244,NGC,4450,H244,galaxy
+245,NGC,4459,H245,galaxy
+246,NGC,4473,H246,galaxy
+247,NGC,4477,H247,galaxy
+248,NGC,4478,H248,galaxy
+249,NGC,4485,H249,galaxy
+250,NGC,4490,H250,galaxy
+251,NGC,4494,H251,galaxy
+252,NGC,4526,H252,galaxy
+253,NGC,4527,H253,galaxy
+254,NGC,4535,H254,galaxy
+255,NGC,4536,H255,galaxy
+256,NGC,4546,H256,galaxy
+257,NGC,4548,H257,galaxy
+258,NGC,4550,H258,galaxy
+259,NGC,4559,H259,galaxy
+260,NGC,4565,H260,Needle Galaxy
+261,NGC,4570,H261,galaxy
+262,NGC,4594,H262,Sombrero Galaxy
+263,NGC,4596,H263,galaxy
+264,NGC,4618,H264,galaxy
+265,NGC,4631,H265,Whale Galaxy
+266,NGC,4636,H266,galaxy
+267,NGC,4643,H267,galaxy
+268,NGC,4654,H268,galaxy
+269,NGC,4656,H269,Hockey Stick Galaxy
+270,NGC,4660,H270,galaxy
+271,NGC,4665,H271,galaxy
+272,NGC,4666,H272,galaxy
+273,NGC,4689,H273,galaxy
+274,NGC,4697,H274,galaxy
+275,NGC,4698,H275,galaxy
+276,NGC,4669,H276,galaxy
+277,NGC,4725,H277,galaxy
+278,NGC,4753,H278,galaxy
+279,NGC,4754,H279,galaxy
+280,NGC,4762,H280,galaxy
+281,NGC,4781,H281,galaxy
+282,NGC,4800,H282,galaxy
+283,NGC,4845,H283,galaxy
+284,NGC,4856,H284,galaxy
+285,NGC,4866,H285,galaxy
+286,NGC,4900,H286,galaxy
+287,NGC,4958,H287,galaxy
+288,NGC,4995,H288,galaxy
+289,NGC,5005,H289,galaxy
+290,NGC,5033,H290,galaxy
+291,NGC,5054,H291,galaxy
+292,NGC,5195,H292,Whirlpool Galaxy companion
+293,NGC,5248,H293,galaxy
+294,NGC,5273,H294,galaxy
+295,NGC,5322,H295,galaxy
+296,NGC,5363,H296,galaxy
+297,NGC,5364,H297,galaxy
+298,NGC,5466,H298,cluster
+299,NGC,5473,H299,galaxy
+300,NGC,5474,H300,galaxy
+301,NGC,5557,H301,galaxy
+302,NGC,5566,H302,galaxy
+303,NGC,5576,H303,galaxy
+304,NGC,5631,H304,galaxy
+305,NGC,5634,H305,cluster
+306,NGC,5676,H306,galaxy
+307,NGC,5689,H307,galaxy
+308,NGC,5694,H308,cluster
+309,NGC,5746,H309,galaxy
+310,NGC,5846,H310,galaxy
+311,NGC,5866,H311,Spindle Galaxy
+312,NGC,5897,H312,cluster
+313,NGC,5907,H313,galaxy
+314,NGC,5982,H314,galaxy
+315,NGC,6118,H315,galaxy
+315,NGC,6144,H316,cluster
+316,NGC,6171,H317,galaxy
+318,NGC,6207,H318,galaxy
+319,NGC,6217,H319,galaxy
+320,NGC,6229,H320,cluster
+321,NGC,6235,H321,cluster
+322,NGC,6284,H322,cluster
+323,NGC,6287,H323,cluster
+324,NGC,6293,H324,cluster
+325,NGC,6304,H325,cluster
+326,NGC,6316,H326,cluster
+327,NGC,6342,H327,cluster
+328,NGC,6355,H328,cluster
+329,NGC,6356,H329,cluster
+330,NGC,6369,H330,Little Ghost Nebula
+331,NGC,6401,H331,cluster
+332,NGC,6426,H332,cluster
+333,NGC,6440,H333,cluster
+334,NGC,6445,H334,Box Nebula
+335,NGC,6451,H335,opej cluster
+336,NGC,6514,H336,Triffid Nebula
+337,NGC,6517,H337,cluster
+338,NGC,6520,H338,open cluster
+339,NGC,6522,H339,cluster
+340,NGC,6528,H340,cluster
+341,NGC,6540,H341,open cluster
+342,NGC,6543,H342,Cats Eye Nebula
+343,NGC,6544,H343,cluster
+344,NGC,6553,H344,cluster
+345,NGC,6568,H345,open cluster
+346,NGC,6569,H346,cluster
+347,NGC,6583,H347,open cluster
+348,NGC,6624,H348,cluster
+349,NGC,6629,H349,nebula
+350,NGC,6633,H350,open cluster
+351,NGC,6638,H351,cluster
+352,NGC,6642,H352,cluster
+353,NGC,6645,H353,open cluster
+354,NGC,6664,H354,open cluster
+355,NGC,6712,H355,cluster
+356,NGC,6755,H356,cluster
+357,NGC,6756,H357,open cluster
+358,NGC,6781,H358,nebula
+359,NGC,6802,H359,open cluster
+360,NGC,6818,H360,Little Gem Nebula
+361,NGC,6823,H361,open cluster
+362,NGC,6826,H362,Blinking Planetary
+363,NGC,6830,H363,open cluster
+364,NGC,6834,H364,open cluster
+365,NGC,6866,H365,open cluster
+366,NGC,6882,H366,open cluster
+367,NGC,6885,H367,galaxy
+368,NGC,6905,H368,Blue Flash Nebula
+369,NGC,6910,H369,open cluster
+370,NGC,6934,H370,galaxy
+371,NGC,6939,H371,open cluster
+372,NGC,6940,H372,open cluster
+373,NGC,6946,H373,Fireworks Galaxy
+374,NGC,7000,H374,N. American Nebula
+375,NGC,7006,H375,galaxy
+376,NGC,7008,H376,Fetus Nebula
+377,NGC,7009,H377,Saturn Nebula
+378,NGC,7044,H378,open cluster
+379,NGC,7062,H379,open cluster
+380,NGC,7086,H380,open cluster
+381,NGC,7128,H381,open cluster
+382,NGC,7142,H382,open cluster
+383,NGC,7160,H383,open cluster
+384,NGC,7209,H384,open cluster
+385,NGC,7217,H385,galaxy
+386,NGC,7243,H386,open cluster
+387,NGC,7296,H387,open cluster
+388,NGC,7331,H388,galaxy
+389,NGC,7380,H389,Wizard Nebula
+390,NGC,7448,H390,galaxy
+391,NGC,7479,H391,galaxy
+392,NGC,7510,H392,open cluster
+393,NGC,7606,H393,galaxy
+394,NGC,7662,H394,Blue Snowball
+395,NGC,7686,H395,open cluster
+396,NGC,7723,H396,galaxy
+397,NGC,7727,H397,galaxy
+398,NGC,7789,H398,Carolines Rose
+399,NGC,7790,H399,open cluster
+400,NGC,7814,H400,galaxy
